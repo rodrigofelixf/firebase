@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "376478411135",
+    "project_id": "aplicativo-de-teste-b0730",
+    "storage_bucket": "aplicativo-de-teste-b0730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376478411135:android:6e6680ca84254de89f124a",
+        "android_client_info": {
+          "package_name": "br.com.rodrigo.firebasestack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376478411135-88kb4dtnplp0g699paatk8j1dudtmjah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL2DUGpqsZV2PljKWUZB9-XLrKKecn1us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376478411135-88kb4dtnplp0g699paatk8j1dudtmjah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

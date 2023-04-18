@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FireBaseStack</string>
+    <string name="titulo_form_cadastro">Cadastre-se</string>
+    <string name="titulo_form_login">Login do Usuario</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="texto_botao_cadastrar">Cadastrar</string>
+    <string name="texto_botao_entrar">Entrar</string>
+    <string name="texto_botao_deslogar">Deslogar</string>
+    <string name="texto_tela_cadastro">Cadastra-se agora</string>
+
+
+</resources>
