@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FireBaseStack"
         tools:targetApi="31">
         <activity
+            android:name=".view.formlogin.EsqueciSenha"
+            android:exported="false" />
+        <activity
             android:name=".view.telaprincipal.TelaPrincipal"
             android:exported="false" />
         <activity

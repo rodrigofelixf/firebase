@@ -35,7 +35,7 @@ class FormLogin : AppCompatActivity() {
             } else {
                 auth.signInWithEmailAndPassword(email, senha).addOnCompleteListener { autenticacao ->
                     if (autenticacao.isSuccessful) {
-                        navegarTelaPrincipal()
+                       navegarTelaPrincipal()
                     }
                 }.addOnFailureListener { exception ->
                     val mensagemErro = when (exception) {
@@ -58,6 +58,11 @@ class FormLogin : AppCompatActivity() {
 
         binding.textCadastreSe.setOnClickListener {
             val intent = Intent(this, FormCadastro::class.java)
+            startActivity(intent)
+        }
+
+        binding.textEsqueciSenha.setOnClickListener {
+            val intent = Intent(this, EsqueciSenha::class.java)
             startActivity(intent)
         }
     }

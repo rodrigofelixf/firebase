@@ -6,8 +6,10 @@
     <string name="hint_senha">Senha</string>
     <string name="texto_botao_cadastrar">Cadastrar</string>
     <string name="texto_botao_entrar">Entrar</string>
+    <string name="texto_botao_redefinir_senha">Redifinir Senha</string>
     <string name="texto_botao_deslogar">Deslogar</string>
     <string name="texto_tela_cadastro">Cadastra-se agora</string>
+    <string name="texto_esqueci_senha">Esqueci a senha</string>
 
 
 </resources>

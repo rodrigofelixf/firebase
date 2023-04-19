@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:padding="16dp"
+    tools:context=".view.formlogin.EsqueciSenha">
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:hint="@string/hint_email"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_redefinir_senha"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="@string/texto_botao_redefinir_senha"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

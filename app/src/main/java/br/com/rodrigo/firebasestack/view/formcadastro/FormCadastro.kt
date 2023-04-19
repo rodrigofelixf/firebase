@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.com.rodrigo.firebasestack.R
 import br.com.rodrigo.firebasestack.databinding.ActivityFormCadastroBinding
+import br.com.rodrigo.firebasestack.view.formlogin.FormLogin
+import br.com.rodrigo.firebasestack.view.telaprincipal.TelaPrincipal
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
@@ -48,6 +50,8 @@ class FormCadastro : AppCompatActivity() {
                             snackbar.show()
                             binding.editEmail.setText("")
                             binding.editSenha.setText("")
+                            navegarTelaLogin()
+
                         }
                     }.addOnFailureListener { exception ->
 
@@ -69,6 +73,11 @@ class FormCadastro : AppCompatActivity() {
         }
 
 
+    }
+
+    private fun navegarTelaLogin() {
+        val intent = Intent(this, FormLogin::class.java)
+        startActivity(intent)
     }
 
 
