@@ -50,7 +50,9 @@ class FormCadastro : AppCompatActivity() {
                             snackbar.show()
                             binding.editEmail.setText("")
                             binding.editSenha.setText("")
+                            auth.signOut()
                             navegarTelaLogin()
+                            finish()
 
                         }
                     }.addOnFailureListener { exception ->
